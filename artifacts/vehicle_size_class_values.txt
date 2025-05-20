@@ -1,0 +1,34 @@
+Compact Cars
+Large Cars
+Midsize Cars
+Midsize Station Wagons
+Midsize-Large Station Wagons
+Minicompact Cars
+Minivan - 2WD
+Minivan - 4WD
+Small Pickup Trucks
+Small Pickup Trucks 2WD
+Small Pickup Trucks 4WD
+Small Sport Utility Vehicle 2WD
+Small Sport Utility Vehicle 4WD
+Small Station Wagons
+Special Purpose Vehicle
+Special Purpose Vehicle 2WD
+Special Purpose Vehicle 4WD
+Special Purpose Vehicles
+Special Purpose Vehicles/2wd
+Special Purpose Vehicles/4wd
+Sport Utility Vehicle - 2WD
+Sport Utility Vehicle - 4WD
+Standard Pickup Trucks
+Standard Pickup Trucks 2WD
+Standard Pickup Trucks 4WD
+Standard Pickup Trucks/2wd
+Standard Sport Utility Vehicle 2WD
+Standard Sport Utility Vehicle 4WD
+Subcompact Cars
+Two Seaters
+Vans
+Vans Passenger
+Vans, Cargo Type
+Vans, Passenger Type

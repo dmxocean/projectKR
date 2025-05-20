@@ -1,0 +1,22 @@
+Column,Unique Values,Null Count
+Make,144,0
+Model,5064,0
+Year,42,0
+Drive,8,0
+Fuel Type,15,0
+Cylinders,10,0
+Transmission,41,0
+Vehicle Size Class,34,0
+You Save/Spend,87,0
+Annual Petroleum Consumption For Fuel Type1,319,0
+Co2 Fuel Type1,615,0
+Engine descriptor,603,0
+EPA Fuel Economy Score,11,0
+GHG Score,11,0
+ID,47523,0
+MPG Data,3,0
+Electric motor,401,0
+T Charger,2,0
+S Charger,2,0
+City gasoline consumption,14,0
+City electricity consumption,420,0

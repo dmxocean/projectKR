@@ -1,0 +1,603 @@
+0.0004
+0.00042
+0.00046
+0.0005
+0.00054
+121      FFS
+122      FFS
+16 VALVE FFS      MPFI
+16-V,CAL. FFS      MPFI
+16-VALVE   FFS
+16-VALVE   FFS      MPFI
+16-VALVE FFS
+16-VALVE FFS      MPFI
+16-VALVE FFS,TRBO
+164/164L   FFS      MPFI
+164S       FFS      MPFI
+164S     FFS      MPFI
+16VALVES FFS
+2 VALVE
+2 VALVE  FFS      MPFI
+2 VALVES   FFS
+2-MODE
+2-VALVE
+2-VALVE  FFS
+2-Valve
+2-mode Normal/Eco Transmission
+2.0L CVH
+2.0Z
+2.5E-R
+2.5M
+20-VALVE FFS
+20-VALVE FFS,TRBO
+200
+255HP
+275
+275 HP
+275 hp
+275HP
+2V
+2VALVE     FFS
+3
+3-VALVE
+3-mode Power/Normal/Eco Transmission
+3-mode Sport/Normal/Eco
+3-mode Spt/Normal/Eco
+3-mode Trans Spt/Normal/Eco
+3.0E-F
+3.0L 2V
+3.0M
+3.0N-F
+3.0W-F
+3.3N-F
+3.8E-F
+3.8N
+3.9L4V-N
+300 HP
+300HP
+305
+305      FFS
+307      FFS
+320-500
+320/510
+350 V8
+350 V8 DIESEL
+350 V8 FFS
+350 V8 FFS   FI
+350 V8 FFS  MPFI
+350 V8 FFS CA model
+350 V8 GUZZLER  FFS
+350 V8 GUZZLER  FFS,TRBO
+350 V8 GUZZLER POLICE FFS
+350 V8 POLICE   FFS
+350 V8 POLICE FFS MPFI
+390-540
+3S-FE    FFS
+3S-GE    FFS
+3S-GTE   FFS,TRBO
+4 VALVE
+4 VALVES   FFS
+4 valve
+4- VALVE FFS
+4-VALVE
+4-VALVE  FFS
+4-VALVE  FFS      MPFI
+4-VLV    FFS
+4-Valve
+4.0E-R
+4.0N
+4.0S-4
+4.0S-4 SOHC
+4.2E-R
+4.6E-R
+4.6M
+4.6M FFS MPFI
+4.6N
+4.6W
+400-425
+420-540
+430
+430-470
+440-470
+440-580
+448S
+44RA8
+450
+460
+470-610
+4A-F     FFS
+4A-FE    FFS
+4A-GE    FFS
+4A-LC    FFS
+4V
+4V         FFS
+4V DOHC
+4VALVE     FFS
+5-mode Transmission
+5-mode trans Sport Plus
+5.0E-R
+5.4E-R
+5.4E-R FFS MPFI
+5.4S/C
+5.4V-4
+5.4V-R
+500
+530
+54RA12
+63 and 67 motor/generators
+8-VALVE  FFS
+A-ENGINE FFS,TRBO
+AFM
+ASTON-DB7
+AWD
+AWD All Wheel Drive
+B-ENGINE FFS,TRBO
+B201       FFS
+B201     FFS
+B202       FFS
+B202       FFS,TRBO
+B202     FFS
+B202     FFS,TRBO
+B204L3
+B204L3     FFS,TRBO
+B204L3 FFS,TRBO
+B204L3 FFS,TURBO
+B205L
+B205R
+B207L
+B207R
+B234E4     FFS,TRBO
+B234E4 FFS,TRBO
+B234E4 FFS,TRBO High Power
+B234I3
+B234I3     FFS
+B234I3 FFS
+B234L/R4   FFS,TRBO
+B234L/R4 FFS,TRBO
+B234R4
+B235E
+B235E5
+B235E5 FFS,TURBO
+B235L
+B235R
+B258I3     FFS
+B258I3 FFS
+B2O4L3
+B2O4R3
+B308E
+B308E5
+B308E5 FFS,TURBO
+B308I4     FFS
+B308I4 FFS VARIABLE
+B6D        FFS
+B6E2       FFS
+B6E4       FFS
+BENDIX   FFS
+BI-FUEL
+BOSCH FFS
+BPD        FFS
+BPD/DOHC   FFS
+BPE        FFS
+BPE/SOHC   FFS
+C-ENGINE FFS      MPFI
+CA model
+CAL,FFS
+CALFFS
+CALIF
+CALIF    DSL,TRBO
+CALIF    FFS,TRBO
+CALIF CA model
+CALIF. ECS FFS      MPFI
+CNG
+CNG FFS
+CNG RNG180
+COUPE
+CVT2L
+Cabrio model
+California Emission Control System
+California emission control system
+Coupe or Conv.
+DCT TRANS
+DI
+DIESEL
+DIESEL CA model
+DIESEL NO-CAT
+DIRECTINJ
+DOD
+DOHC
+DOHC       FFS
+DOHC       FFS      MPFI
+DOHC     FFS
+DOHC     FFS,TRBO
+DOHC I-4   FFS
+DOHC TURBO
+DOHC TURBO FFS,TRBO
+DOHC V-6   FFS
+DOHC VTEC
+DOHC-4     FFS
+DOHC-IL4
+DOHC-T/C
+DOHC-TC
+DOHC-VTEC
+DOHC-VTEC  FFS
+DOHC/VTEC  FFS
+DSL,TRBO
+DSL,TRBO CA model
+DSL,TRBO MPFI
+DSL,TRBO MPFI     NO-CAT
+DSL,TRBO NO-CAT
+DVVT
+Direct Injection
+Dual clutch transmission
+E2.0LAA
+E2.0LMA
+E2.5CAB
+E2.5CMB
+EFFV-GAS
+EGR      FFS
+EGR FFS
+EGR/2-VLV  FFS
+EGR/4-VLV  FFS
+ELAN TURBO FFS,TRBO
+ESPRIT     FFS,TRBO MPFI
+EX2US40E5G
+FFS
+FFS      FFS
+FFS      GUZZLER
+FFS      MPFI
+FFS      MPFI     S-CHARGE
+FFS      MPFI DOHC
+FFS      MPFI SOHC
+FFS      ROTARY
+FFS      S-CHARGE
+FFS      SPFI
+FFS      VARIABLE
+FFS   FI
+FFS 1 barrel carb
+FFS 2 barrel carb
+FFS 3 barrel carb
+FFS 4 barrel carb
+FFS BOSCH
+FFS CA model
+FFS DIESEL NO-CAT
+FFS DOHC
+FFS Fuel Injection
+FFS Lock-up
+FFS MPFI
+FFS MPFI  FI
+FFS SOHC
+FFS SPFI
+FFS SPFI  FI
+FFS TURBO
+FFS fuel injection
+FFS,DOHC
+FFS,MPFI CA model
+FFS,SPFI CA model
+FFS,TRBO
+FFS,TRBO CA model
+FFS,TRBO Low Boost
+FFS,TRBO MPFI
+FFS,TRBO ROTARY
+FFS,TRBO SPFI
+FFS,TURBO
+FFS/TRBO
+FFS/TRBO CA model
+FFSSIL
+FFSSIL CA model
+FFV
+FFV; Active Fuel Management
+FFV; Cargo Van
+FFV; GVWR>7599 LBS
+FFV; PR
+FFV; Part-time 4-Wheel Drive
+FFV; with Stop-start
+FLEX FUEL
+FLEX-FUEL
+Flex Fuel E85
+Full Time 4WD
+Full time 4WD
+Full-time 4WD
+GAS 330
+GAS 340
+GAS 350
+GAS 360
+GAS 370
+GAS 380
+GAS 400
+GAS 410
+GAS 420
+GAS 420 FFS
+GAS 430
+GAS 440
+GM-BUICK
+GM-BUICK CA model
+GM-CHEV
+GM-CHEV  FFS
+GM-CHEV  FFS      MPFI
+GM-CHEV  FFS      SPFI
+GM-CHEV  FFS CA model
+GM-CHEV CA model
+GM-CHEV FFS
+GM-OLDS
+GM-OLDS  FFS
+GM-OLDS  FFS CA model
+GM-OLDS CA model
+GMP4       FFS,TRBO MPFI
+GMP4     FFS,TRBO MPFI
+GMP4 ANDIC FFS,TRBO MPFI
+GMP4+IC  FFS,TRBO MPFI
+GT/GTS-VIS
+GTS-VIS
+GUZZLER
+GUZZLER             FFS
+GUZZLER  5 SERIES   FFS
+GUZZLER  ASTON-DB7  FFS
+GUZZLER  FFS
+GUZZLER  FFS      MPFI
+GUZZLER  FFS      S-CHARGE
+GUZZLER  FFS CA model
+GUZZLER  FFS MPFI   FFS
+GUZZLER  FFS,TRBO
+GUZZLER  FFS,TRBO MPFI
+GUZZLER  FFS,TURBO
+GUZZLER  GM-CHEVY FFS
+GUZZLER  GUZZLER  FFS
+GUZZLER  L410MN2  FFS
+GUZZLER  L410MNKT FFS
+GUZZLER  L410MT2  FFS,TRBO
+GUZZLER  L410MTKT FFS,TRBO
+GUZZLER  TURBO
+GUZZLER  TURBO CA model
+GUZZLER  VOLVO780 FFS
+GUZZLER CA model
+GUZZLER FFS
+GUZZLER FFS MPFI
+GUZZLER FFS MPFI FFS
+GUZZLER FFS S-CHARGE
+GUZZLER GUZZLER
+GUZZLER POLICE
+GUZZLER POLICE 4.6N
+GUZZLER V8 FFS
+GUZZLER V8 FFS,TURBO
+Gasoline only
+HEV
+HEV LB
+Hellcat engine
+Hybrid
+Hybrid; PR
+Hybrid; with Sport mode
+I-4        FFS
+I4
+IN COMMENT
+JED        FFS
+JEE        FFS
+K8D        FFS
+L-4
+L410MT2
+LEAN BURN
+LEAN-BURN
+LH-3.1 FFS
+LK9
+LM7
+LPT
+Lead Acid
+Lock-up
+MAZDA3 T/C
+MAZDA6 T/C
+MFFV-GAS
+MFI      FFS
+MIATA T/C
+MOTORSPORT
+MPFI
+MPFI     NO-CAT
+MPFI     TURBO
+Mild Hybrid
+Mild Hybrid; eTorque
+N          FFS
+NG
+NGV
+NGV      FFS
+NO-CAT
+NONE
+NONE FFS
+NiMH
+OHC
+OHC      FFS
+OHV
+OHV      FFS
+Off Road Package
+Off-road Package
+PEFC
+PEM
+PHEV
+PHEV; 94 Amp-hour battery
+POLICE
+POLICE   FFS
+POLICE   FFS 2 barrel carb
+POLICE   FFS 4 barrel carb
+POLICE  FFS
+POLICE FFS
+POLICE FFS MPFI
+PR
+PRE-CAT    FFS
+PRE-CAT  FFS
+PRE-CAT FFS
+Part Time 4WD
+Part time 4WD
+Part-time 4-Wheel Drive
+Part-time 4WD
+Part-time AWD
+R-ENG FFS,TRBO
+RNG130/170
+RNG140/220
+RNG200/300
+RNG250
+RNG390
+RNG390/520
+RNG420
+RNG=120
+RNG=170
+RNG=190
+RNG=192
+RNG=193
+RNG=200
+RNG=250
+RNG=290
+RNG=340
+RNG=360
+RNG=370
+RNG=380
+RNG=390
+RNG=390/400
+RNG=400
+RNG=420
+RNG=450
+ROTARY
+ROTARY CA model
+S0HC-4     FFS
+SC
+SELECT SFT
+SID
+SIDI
+SIDI                                   S
+SIDI & PFI
+SIDI & PFI; 3-mode
+SIDI & PFI; 3-mode Sport/Normal/Eco
+SIDI & PFI; 3-mode; TRD
+SIDI & PFI; F Sport
+SIDI & PFI; F-Sport
+SIDI & PFI; FFV
+SIDI & PFI; FFV; Stop-Start
+SIDI & PFI; Hybrid
+SIDI & PFI; Hybrid; with ADS
+SIDI & PFI; Mild Hybrid
+SIDI & PFI; PHEV
+SIDI & PFI; Sport Package
+SIDI & PFI; Stop-Start
+SIDI & PFI; Stop-start
+SIDI & PFI; TRD
+SIDI & PFI; VCR
+SIDI & PFI; with Off Road Package
+SIDI & PFI; with Stop-Start
+SIDI & PFI; with Stop-start
+SIDI;
+SIDI;  Municipal
+SIDI;  Stop-Start
+SIDI; 2-Mode
+SIDI; 3-mode transmission work truck
+SIDI; 4-mode/Sport transmission
+SIDI; Active Fuel Management
+SIDI; Ecoboost
+SIDI; Ecoboost; GVWR>6649 LBS
+SIDI; Ecoboost; GVWR>6799 LBS
+SIDI; Ecoboost; GVWR>7599 LBS
+SIDI; FFV
+SIDI; FFV; Sport Transmission
+SIDI; Hybrid
+SIDI; Hybrid; with Stop-Start
+SIDI; ISS and AGS
+SIDI; LDT
+SIDI; Long Wheelbase
+SIDI; MDPV
+SIDI; MDPV Curb Weight >6000 lbs
+SIDI; Mild Hybrid
+SIDI; Mild Hybrid;
+SIDI; Mild Hybrid; eAssist
+SIDI; Municipal
+SIDI; Over 6000 lbs curb weight
+SIDI; PHEV
+SIDI; PZEV SULEV Emissions
+SIDI; PZEV SULEV emissions
+SIDI; PZEVSULEV emissions
+SIDI; SV
+SIDI; Select shift transmission
+SIDI; Short Wheelbase
+SIDI; Stop-Start
+SIDI; Stop-Start; Transmission with Sport Mode
+SIDI; Transmission with Sport Mode
+SIDI; ULEV Emissions
+SIDI; With Cylinder Deactivation
+SIDI; Without Cylinder Deactivation
+SIDI; XFE Package
+SIDI; Z06
+SIDI; ZL1
+SIDI; eAssist
+SIDI; with Cylinder Deactivation
+SIDI; with Semi-Auto Trans
+SIDI; with Sport Mode
+SIDI; with Stop-Start
+SIDI; with Stop-Start Option
+SIDI; with Stop-Start option
+SIDI; with Stop-start
+SIDI; with Stop/Start Technology
+SIDI; with i-ELOOP Technology Package
+SIDI; without Stop-Start
+SIDI; wth Sport Mode
+SMG TRANS
+SOHC
+SOHC       FFS
+SOHC       FFS      MPFI
+SOHC     FFS
+SOHC  2WD  FFS
+SOHC  4WD  FFS
+SOHC 4
+SOHC FFS
+SOHC FFS  FI
+SOHC I-4   FFS
+SOHC L-5
+SOHC V-6
+SOHC V-6   FFS
+SOHC VTEC
+SOHC-2     FFS
+SOHC-3     FFS
+SOHC-4     FFS
+SOHC-4 2WD FFS
+SOHC-4 4WD FFS
+SOHC-4 FFS
+SOHC-IL4
+SOHC-V6    FFS
+SOHC-VIS
+SOHC-VTEC
+SPFI
+SPG      FFS,TRBO
+SPORT
+SPORTS
+SST
+STS/DTS
+SUPER-CHGD
+SUPERCHR
+SUPERCHRGD
+Shelby GT500; Coupe or Conv.
+Sold at Ford dealerships
+Sport Transmission
+Stop-Start
+Stop-Start; Transmission with Sport Mode
+TBI      FFS
+TURBO
+TURBO    FFS,TRBO
+Top Speed approx. 68 MPH
+Unknown
+V-6
+V-6        FFS
+V-6        FFS      S-CHARGE
+V-6 FFS
+V6
+V6-DOHC    FFS
+V6-DOHC  FFS
+V6-SOHC    FFS
+V6-SOHC-2  FFS
+V6-SOHC-4  FFS
+V6DOHC     FFS
+V8
+VCM
+VOLVO760 FFS
+VTC/VTEC
+VTEC
+VTEC       FFS
+VTEC     FFS
+VTEC-E
+VTEC-E     FFS
+Z/28
+new body style
+with Sport Mode
+with Stop-Start

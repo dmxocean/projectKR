@@ -1,0 +1,1005 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.example.org/vehicle-ontology#"
+     xml:base="http://www.example.org/vehicle-ontology"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="http://www.example.org/vehicle-ontology">
+        <rdfs:comment>Ontology Vehicles using this dataset https://public.opendatasoft.com/explore/dataset/all-vehicles-model/table/?sort=modifiedon</rdfs:comment>
+        <rdfs:label>Vehicle Ontology</rdfs:label>
+        <owl:versionInfo>3.0</owl:versionInfo>
+        <dc:creator>Gerzon</dc:creator>
+        <dc:creator>Ruben</dc:creator>
+        <dc:creator>Erick</dc:creator>
+    </owl:Ontology>
+    
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+    
+    <!-- http://www.example.org/vehicle-ontology#hasFuelType -->
+    <owl:ObjectProperty rdf:about="http://www.example.org/vehicle-ontology#hasFuelType">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.example.org/vehicle-ontology#Vehicle"/>
+        <rdfs:range rdf:resource="http://www.example.org/vehicle-ontology#FuelType"/>
+    </owl:ObjectProperty>
+    
+    <!-- http://www.example.org/vehicle-ontology#hasMarketSegment -->
+    <owl:ObjectProperty rdf:about="http://www.example.org/vehicle-ontology#hasMarketSegment">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.example.org/vehicle-ontology#Vehicle"/>
+        <rdfs:range rdf:resource="http://www.example.org/vehicle-ontology#MarketSegment"/>
+    </owl:ObjectProperty>
+    
+    <!-- http://www.example.org/vehicle-ontology#hasSizeClass -->
+    <owl:ObjectProperty rdf:about="http://www.example.org/vehicle-ontology#hasSizeClass">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.example.org/vehicle-ontology#Vehicle"/>
+        <rdfs:range rdf:resource="http://www.example.org/vehicle-ontology#VehicleSizeClass"/>
+    </owl:ObjectProperty>
+    
+    <!-- http://www.example.org/vehicle-ontology#hasBodyStyle -->
+    <owl:ObjectProperty rdf:about="http://www.example.org/vehicle-ontology#hasBodyStyle">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.example.org/vehicle-ontology#Vehicle"/>
+        <rdfs:range rdf:resource="http://www.example.org/vehicle-ontology#BodyStyle"/>
+    </owl:ObjectProperty>
+    
+    <!-- http://www.example.org/vehicle-ontology#hasBoostSystem -->
+    <owl:ObjectProperty rdf:about="http://www.example.org/vehicle-ontology#hasBoostSystem">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.example.org/vehicle-ontology#Vehicle"/>
+        <rdfs:range rdf:resource="http://www.example.org/vehicle-ontology#BoostSystem"/>
+    </owl:ObjectProperty>
+    
+    <!-- http://www.example.org/vehicle-ontology#hasDriveType -->
+    <owl:ObjectProperty rdf:about="http://www.example.org/vehicle-ontology#hasDriveType">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.example.org/vehicle-ontology#Vehicle"/>
+        <rdfs:range rdf:resource="http://www.example.org/vehicle-ontology#DriveType"/>
+    </owl:ObjectProperty>
+        
+    <!-- http://www.example.org/vehicle-ontology#hasManufacturer -->
+    <owl:ObjectProperty rdf:about="http://www.example.org/vehicle-ontology#hasManufacturer">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.example.org/vehicle-ontology#Vehicle"/>
+        <rdfs:range rdf:resource="http://www.example.org/vehicle-ontology#Manufacturer"/>
+    </owl:ObjectProperty>
+    
+    <!-- http://www.example.org/vehicle-ontology#hasModelYear -->
+    <owl:ObjectProperty rdf:about="http://www.example.org/vehicle-ontology#hasModelYear">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.example.org/vehicle-ontology#Vehicle"/>
+        <rdfs:range rdf:resource="http://www.example.org/vehicle-ontology#ModelYear"/>
+    </owl:ObjectProperty>
+    
+    <!-- Inverse Object Properties -->
+    
+    <!-- http://www.example.org/vehicle-ontology#isFuelTypeOf -->
+    <owl:ObjectProperty rdf:about="http://www.example.org/vehicle-ontology#isFuelTypeOf">
+        <owl:inverseOf rdf:resource="http://www.example.org/vehicle-ontology#hasFuelType"/>
+        <rdfs:domain rdf:resource="http://www.example.org/vehicle-ontology#FuelType"/>
+        <rdfs:range rdf:resource="http://www.example.org/vehicle-ontology#Vehicle"/>
+    </owl:ObjectProperty>
+    
+    <!-- http://www.example.org/vehicle-ontology#isBodyStyleOf -->
+    <owl:ObjectProperty rdf:about="http://www.example.org/vehicle-ontology#isBodyStyleOf">
+        <owl:inverseOf rdf:resource="http://www.example.org/vehicle-ontology#hasBodyStyle"/>
+        <rdfs:domain rdf:resource="http://www.example.org/vehicle-ontology#BodyStyle"/>
+        <rdfs:range rdf:resource="http://www.example.org/vehicle-ontology#Vehicle"/>
+    </owl:ObjectProperty>
+    
+    <!-- http://www.example.org/vehicle-ontology#isDriveTypeOf -->
+    <owl:ObjectProperty rdf:about="http://www.example.org/vehicle-ontology#isDriveTypeOf">
+        <owl:inverseOf rdf:resource="http://www.example.org/vehicle-ontology#hasDriveType"/>
+        <rdfs:domain rdf:resource="http://www.example.org/vehicle-ontology#DriveType"/>
+        <rdfs:range rdf:resource="http://www.example.org/vehicle-ontology#Vehicle"/>
+    </owl:ObjectProperty>
+    
+    <!-- http://www.example.org/vehicle-ontology#isManufacturerOf -->
+    <owl:ObjectProperty rdf:about="http://www.example.org/vehicle-ontology#isManufacturerOf">
+        <owl:inverseOf rdf:resource="http://www.example.org/vehicle-ontology#hasManufacturer"/>
+        <rdfs:domain rdf:resource="http://www.example.org/vehicle-ontology#Manufacturer"/>
+        <rdfs:range rdf:resource="http://www.example.org/vehicle-ontology#Vehicle"/>
+    </owl:ObjectProperty>
+    
+    <!-- http://www.example.org/vehicle-ontology#isMarketSegmentOf -->
+    <owl:ObjectProperty rdf:about="http://www.example.org/vehicle-ontology#isMarketSegmentOf">
+        <owl:inverseOf rdf:resource="http://www.example.org/vehicle-ontology#hasMarketSegment"/>
+        <rdfs:domain rdf:resource="http://www.example.org/vehicle-ontology#MarketSegment"/>
+        <rdfs:range rdf:resource="http://www.example.org/vehicle-ontology#Vehicle"/>
+    </owl:ObjectProperty>
+    
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+    
+    <!-- http://www.example.org/vehicle-ontology#cylinders -->
+    <owl:DatatypeProperty rdf:about="http://www.example.org/vehicle-ontology#cylinders">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.example.org/vehicle-ontology#Vehicle"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+    <!-- http://www.example.org/vehicle-ontology#hasElectricity -->
+    <owl:DatatypeProperty rdf:about="http://www.example.org/vehicle-ontology#hasElectricity">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.example.org/vehicle-ontology#Vehicle"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+    <!-- http://www.example.org/vehicle-ontology#make -->
+    <owl:DatatypeProperty rdf:about="http://www.example.org/vehicle-ontology#make">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.example.org/vehicle-ontology#Vehicle"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+    <!-- http://www.example.org/vehicle-ontology#model -->
+    <owl:DatatypeProperty rdf:about="http://www.example.org/vehicle-ontology#model">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.example.org/vehicle-ontology#Vehicle"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+    <!-- http://www.example.org/vehicle-ontology#savings -->
+    <owl:DatatypeProperty rdf:about="http://www.example.org/vehicle-ontology#savings">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.example.org/vehicle-ontology#Vehicle"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+    <!-- http://www.example.org/vehicle-ontology#year -->
+    <owl:DatatypeProperty rdf:about="http://www.example.org/vehicle-ontology#year">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.example.org/vehicle-ontology#Vehicle"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+    <!-- http://www.example.org/vehicle-ontology#transmission -->
+    <owl:DatatypeProperty rdf:about="http://www.example.org/vehicle-ontology#transmission">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.example.org/vehicle-ontology#Vehicle"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+    <!-- http://www.example.org/vehicle-ontology#co2Emissions -->
+    <owl:DatatypeProperty rdf:about="http://www.example.org/vehicle-ontology#co2Emissions">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.example.org/vehicle-ontology#Vehicle"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+    <!-- http://www.example.org/vehicle-ontology#engineDescriptor -->
+    <owl:DatatypeProperty rdf:about="http://www.example.org/vehicle-ontology#engineDescriptor">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.example.org/vehicle-ontology#Vehicle"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+    <!-- http://www.example.org/vehicle-ontology#electricMotorSpec -->
+    <owl:DatatypeProperty rdf:about="http://www.example.org/vehicle-ontology#electricMotorSpec">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.example.org/vehicle-ontology#Vehicle"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+    <!-- http://www.example.org/vehicle-ontology#cityElectricityConsumption -->
+    <owl:DatatypeProperty rdf:about="http://www.example.org/vehicle-ontology#cityElectricityConsumption">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.example.org/vehicle-ontology#Vehicle"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+    <!-- http://www.example.org/vehicle-ontology#cityGasolineConsumption -->
+    <owl:DatatypeProperty rdf:about="http://www.example.org/vehicle-ontology#cityGasolineConsumption">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.example.org/vehicle-ontology#Vehicle"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+    <!-- http://www.example.org/vehicle-ontology#annualPetroleumConsumption -->
+    <owl:DatatypeProperty rdf:about="http://www.example.org/vehicle-ontology#annualPetroleumConsumption">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.example.org/vehicle-ontology#Vehicle"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+    <!-- http://www.example.org/vehicle-ontology#epaFuelEconomyScore -->
+    <owl:DatatypeProperty rdf:about="http://www.example.org/vehicle-ontology#epaFuelEconomyScore">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.example.org/vehicle-ontology#Vehicle"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+    <!-- http://www.example.org/vehicle-ontology#ghgScore -->
+    <owl:DatatypeProperty rdf:about="http://www.example.org/vehicle-ontology#ghgScore">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.example.org/vehicle-ontology#Vehicle"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+    <!-- http://www.example.org/vehicle-ontology#mpgData -->
+    <owl:DatatypeProperty rdf:about="http://www.example.org/vehicle-ontology#mpgData">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.example.org/vehicle-ontology#Vehicle"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+    
+    <!-- Base Class Definitions -->
+    <owl:Class rdf:about="http://www.example.org/vehicle-ontology#Vehicle"/>
+    
+    <!-- Propulsion-related Classes -->
+    <owl:Class rdf:about="http://www.example.org/vehicle-ontology#PropulsionVehicle">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/vehicle-ontology#Vehicle"/>
+    </owl:Class>
+    
+    <owl:Class rdf:about="http://www.example.org/vehicle-ontology#ConventionalFuelVehicle">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/vehicle-ontology#PropulsionVehicle"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.example.org/vehicle-ontology#hasFuelType"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:oneOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#Diesel"/>
+                            <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#Midgrade"/>
+                            <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#Premium"/>
+                            <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#Regular"/>
+                        </owl:oneOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+    <owl:Class rdf:about="http://www.example.org/vehicle-ontology#DieselVehicle">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/vehicle-ontology#ConventionalFuelVehicle"/>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#ConventionalFuelVehicle"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.example.org/vehicle-ontology#hasFuelType"/>
+                        <owl:hasValue rdf:resource="http://www.example.org/vehicle-ontology#Diesel"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+    <owl:Class rdf:about="http://www.example.org/vehicle-ontology#GasolineVehicle">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/vehicle-ontology#ConventionalFuelVehicle"/>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#ConventionalFuelVehicle"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.example.org/vehicle-ontology#hasFuelType"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:oneOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#Midgrade"/>
+                                    <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#Premium"/>
+                                    <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#Regular"/>
+                                </owl:oneOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+    <owl:Class rdf:about="http://www.example.org/vehicle-ontology#RegularGasolineVehicle">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/vehicle-ontology#GasolineVehicle"/>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#GasolineVehicle"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.example.org/vehicle-ontology#hasFuelType"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:oneOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#Midgrade"/>
+                                    <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#Regular"/>
+                                </owl:oneOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+    <owl:Class rdf:about="http://www.example.org/vehicle-ontology#PremiumGasolineVehicle">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/vehicle-ontology#GasolineVehicle"/>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#GasolineVehicle"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.example.org/vehicle-ontology#hasFuelType"/>
+                        <owl:hasValue rdf:resource="http://www.example.org/vehicle-ontology#Premium"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+    <owl:Class rdf:about="http://www.example.org/vehicle-ontology#AlternativeFuelVehicle">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/vehicle-ontology#PropulsionVehicle"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.example.org/vehicle-ontology#hasFuelType"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:oneOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#CNG"/>
+                            <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#E85"/>
+                        </owl:oneOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+    <owl:Class rdf:about="http://www.example.org/vehicle-ontology#ElectrifiedVehicle">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/vehicle-ontology#PropulsionVehicle"/>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.example.org/vehicle-ontology#hasFuelType"/>
+                        <owl:hasValue rdf:resource="http://www.example.org/vehicle-ontology#Electricity"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.example.org/vehicle-ontology#hasElectricity"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+    <owl:Class rdf:about="http://www.example.org/vehicle-ontology#HybridElectricVehicle">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/vehicle-ontology#ElectrifiedVehicle"/>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#ElectrifiedVehicle"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.example.org/vehicle-ontology#hasElectricity"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.example.org/vehicle-ontology#hasFuelType"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:oneOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#Midgrade"/>
+                                    <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#Premium"/>
+                                    <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#Regular"/>
+                                </owl:oneOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+    <owl:Class rdf:about="http://www.example.org/vehicle-ontology#PureElectricVehicle">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/vehicle-ontology#ElectrifiedVehicle"/>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#ElectrifiedVehicle"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.example.org/vehicle-ontology#hasFuelType"/>
+                        <owl:hasValue rdf:resource="http://www.example.org/vehicle-ontology#Electricity"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+    <!-- Body Style-related Classes -->
+    <owl:Class rdf:about="http://www.example.org/vehicle-ontology#BodyStyleVehicle">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/vehicle-ontology#Vehicle"/>
+    </owl:Class>
+    
+    <owl:Class rdf:about="http://www.example.org/vehicle-ontology#PassengerVehicle">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/vehicle-ontology#BodyStyleVehicle"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.example.org/vehicle-ontology#hasBodyStyle"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:oneOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#Sedan"/>
+                            <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#Coupe"/>
+                            <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#Wagon"/>
+                            <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#Hatchback"/>
+                            <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#Convertible"/>
+                        </owl:oneOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+    <owl:Class rdf:about="http://www.example.org/vehicle-ontology#SedanVehicle">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/vehicle-ontology#PassengerVehicle"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.example.org/vehicle-ontology#hasBodyStyle"/>
+                <owl:hasValue rdf:resource="http://www.example.org/vehicle-ontology#Sedan"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+    <owl:Class rdf:about="http://www.example.org/vehicle-ontology#CoupeVehicle">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/vehicle-ontology#PassengerVehicle"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.example.org/vehicle-ontology#hasBodyStyle"/>
+                <owl:hasValue rdf:resource="http://www.example.org/vehicle-ontology#Coupe"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+    <owl:Class rdf:about="http://www.example.org/vehicle-ontology#WagonVehicle">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/vehicle-ontology#PassengerVehicle"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.example.org/vehicle-ontology#hasBodyStyle"/>
+                <owl:hasValue rdf:resource="http://www.example.org/vehicle-ontology#Wagon"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+    <owl:Class rdf:about="http://www.example.org/vehicle-ontology#HatchbackVehicle">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/vehicle-ontology#PassengerVehicle"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.example.org/vehicle-ontology#hasBodyStyle"/>
+                <owl:hasValue rdf:resource="http://www.example.org/vehicle-ontology#Hatchback"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+    <owl:Class rdf:about="http://www.example.org/vehicle-ontology#UtilityVehicle">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/vehicle-ontology#BodyStyleVehicle"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.example.org/vehicle-ontology#hasBodyStyle"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:oneOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#SUV"/>
+                            <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#Truck"/>
+                            <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#Van"/>
+                        </owl:oneOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+    <owl:Class rdf:about="http://www.example.org/vehicle-ontology#SUVVehicle">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/vehicle-ontology#UtilityVehicle"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.example.org/vehicle-ontology#hasBodyStyle"/>
+                <owl:hasValue rdf:resource="http://www.example.org/vehicle-ontology#SUV"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+    <owl:Class rdf:about="http://www.example.org/vehicle-ontology#TruckVehicle">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/vehicle-ontology#UtilityVehicle"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.example.org/vehicle-ontology#hasBodyStyle"/>
+                <owl:hasValue rdf:resource="http://www.example.org/vehicle-ontology#Truck"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+    <owl:Class rdf:about="http://www.example.org/vehicle-ontology#VanVehicle">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/vehicle-ontology#UtilityVehicle"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.example.org/vehicle-ontology#hasBodyStyle"/>
+                <owl:hasValue rdf:resource="http://www.example.org/vehicle-ontology#Van"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+    <!-- Drive Type-related Classes -->
+    <owl:Class rdf:about="http://www.example.org/vehicle-ontology#DriveTypeVehicle">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/vehicle-ontology#Vehicle"/>
+    </owl:Class>
+    
+    <owl:Class rdf:about="http://www.example.org/vehicle-ontology#FrontWheelDriveVehicle">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/vehicle-ontology#DriveTypeVehicle"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.example.org/vehicle-ontology#hasDriveType"/>
+                <owl:hasValue rdf:resource="http://www.example.org/vehicle-ontology#FrontWheelDrive"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+    <owl:Class rdf:about="http://www.example.org/vehicle-ontology#RearWheelDriveVehicle">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/vehicle-ontology#DriveTypeVehicle"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.example.org/vehicle-ontology#hasDriveType"/>
+                <owl:hasValue rdf:resource="http://www.example.org/vehicle-ontology#RearWheelDrive"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+    <owl:Class rdf:about="http://www.example.org/vehicle-ontology#AllWheelDriveVehicle">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/vehicle-ontology#DriveTypeVehicle"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.example.org/vehicle-ontology#hasDriveType"/>
+                <owl:hasValue rdf:resource="http://www.example.org/vehicle-ontology#AllWheelDrive"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+    <owl:Class rdf:about="http://www.example.org/vehicle-ontology#FourWheelDriveVehicle">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/vehicle-ontology#DriveTypeVehicle"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.example.org/vehicle-ontology#hasDriveType"/>
+                <owl:hasValue rdf:resource="http://www.example.org/vehicle-ontology#FourWheelDrive"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+    <!-- Size-based Classifications for Propulsion Types -->
+    <owl:Class rdf:about="http://www.example.org/vehicle-ontology#CompactDiesel">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/vehicle-ontology#DieselVehicle"/>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#DieselVehicle"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.example.org/vehicle-ontology#hasSizeClass"/>
+                        <owl:hasValue rdf:resource="http://www.example.org/vehicle-ontology#CompactSize"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+    <owl:Class rdf:about="http://www.example.org/vehicle-ontology#MidsizeDiesel">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/vehicle-ontology#DieselVehicle"/>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#DieselVehicle"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.example.org/vehicle-ontology#hasSizeClass"/>
+                        <owl:hasValue rdf:resource="http://www.example.org/vehicle-ontology#MidsizeSize"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+    <owl:Class rdf:about="http://www.example.org/vehicle-ontology#LargeDiesel">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/vehicle-ontology#DieselVehicle"/>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#DieselVehicle"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.example.org/vehicle-ontology#hasSizeClass"/>
+                        <owl:hasValue rdf:resource="http://www.example.org/vehicle-ontology#LargeSize"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+    <owl:Class rdf:about="http://www.example.org/vehicle-ontology#CompactRegular">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/vehicle-ontology#RegularGasolineVehicle"/>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#RegularGasolineVehicle"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.example.org/vehicle-ontology#hasSizeClass"/>
+                        <owl:hasValue rdf:resource="http://www.example.org/vehicle-ontology#CompactSize"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+    <owl:Class rdf:about="http://www.example.org/vehicle-ontology#MidsizeRegular">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/vehicle-ontology#RegularGasolineVehicle"/>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#RegularGasolineVehicle"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.example.org/vehicle-ontology#hasSizeClass"/>
+                        <owl:hasValue rdf:resource="http://www.example.org/vehicle-ontology#MidsizeSize"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+    <owl:Class rdf:about="http://www.example.org/vehicle-ontology#LargeRegular">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/vehicle-ontology#RegularGasolineVehicle"/>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#RegularGasolineVehicle"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.example.org/vehicle-ontology#hasSizeClass"/>
+                        <owl:hasValue rdf:resource="http://www.example.org/vehicle-ontology#LargeSize"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+    <owl:Class rdf:about="http://www.example.org/vehicle-ontology#CompactHybrid">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/vehicle-ontology#HybridElectricVehicle"/>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#HybridElectricVehicle"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.example.org/vehicle-ontology#hasSizeClass"/>
+                        <owl:hasValue rdf:resource="http://www.example.org/vehicle-ontology#CompactSize"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+    <owl:Class rdf:about="http://www.example.org/vehicle-ontology#MidsizeHybrid">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/vehicle-ontology#HybridElectricVehicle"/>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#HybridElectricVehicle"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.example.org/vehicle-ontology#hasSizeClass"/>
+                        <owl:hasValue rdf:resource="http://www.example.org/vehicle-ontology#MidsizeSize"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+    <owl:Class rdf:about="http://www.example.org/vehicle-ontology#LargeHybrid">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/vehicle-ontology#HybridElectricVehicle"/>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#HybridElectricVehicle"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.example.org/vehicle-ontology#hasSizeClass"/>
+                        <owl:hasValue rdf:resource="http://www.example.org/vehicle-ontology#LargeSize"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+    <owl:Class rdf:about="http://www.example.org/vehicle-ontology#CompactElectric">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/vehicle-ontology#PureElectricVehicle"/>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#PureElectricVehicle"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.example.org/vehicle-ontology#hasSizeClass"/>
+                        <owl:hasValue rdf:resource="http://www.example.org/vehicle-ontology#CompactSize"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+    <owl:Class rdf:about="http://www.example.org/vehicle-ontology#MidsizeElectric">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/vehicle-ontology#PureElectricVehicle"/>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#PureElectricVehicle"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.example.org/vehicle-ontology#hasSizeClass"/>
+                        <owl:hasValue rdf:resource="http://www.example.org/vehicle-ontology#MidsizeSize"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+    <owl:Class rdf:about="http://www.example.org/vehicle-ontology#LargeElectric">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/vehicle-ontology#PureElectricVehicle"/>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#PureElectricVehicle"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.example.org/vehicle-ontology#hasSizeClass"/>
+                        <owl:hasValue rdf:resource="http://www.example.org/vehicle-ontology#LargeSize"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+    <!-- Base Resource Classes -->
+    <owl:Class rdf:about="http://www.example.org/vehicle-ontology#FuelType"/>
+    <owl:Class rdf:about="http://www.example.org/vehicle-ontology#VehicleSizeClass"/>
+    <owl:Class rdf:about="http://www.example.org/vehicle-ontology#DriveType"/>
+    <owl:Class rdf:about="http://www.example.org/vehicle-ontology#BodyStyle"/>
+    <owl:Class rdf:about="http://www.example.org/vehicle-ontology#MarketSegment"/>
+    <owl:Class rdf:about="http://www.example.org/vehicle-ontology#BoostSystem"/>
+    <owl:Class rdf:about="http://www.example.org/vehicle-ontology#Manufacturer"/>
+    <owl:Class rdf:about="http://www.example.org/vehicle-ontology#ModelYear"/>
+    
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+    
+    <!-- FuelType Individuals -->
+    <owl:NamedIndividual rdf:about="http://www.example.org/vehicle-ontology#CNG">
+        <rdf:type rdf:resource="http://www.example.org/vehicle-ontology#FuelType"/>
+    </owl:NamedIndividual>
+    
+    <owl:NamedIndividual rdf:about="http://www.example.org/vehicle-ontology#Diesel">
+        <rdf:type rdf:resource="http://www.example.org/vehicle-ontology#FuelType"/>
+    </owl:NamedIndividual>
+    
+    <owl:NamedIndividual rdf:about="http://www.example.org/vehicle-ontology#E85">
+        <rdf:type rdf:resource="http://www.example.org/vehicle-ontology#FuelType"/>
+    </owl:NamedIndividual>
+    
+    <owl:NamedIndividual rdf:about="http://www.example.org/vehicle-ontology#Electricity">
+        <rdf:type rdf:resource="http://www.example.org/vehicle-ontology#FuelType"/>
+    </owl:NamedIndividual>
+    
+    <owl:NamedIndividual rdf:about="http://www.example.org/vehicle-ontology#Midgrade">
+        <rdf:type rdf:resource="http://www.example.org/vehicle-ontology#FuelType"/>
+    </owl:NamedIndividual>
+    
+    <owl:NamedIndividual rdf:about="http://www.example.org/vehicle-ontology#Premium">
+        <rdf:type rdf:resource="http://www.example.org/vehicle-ontology#FuelType"/>
+    </owl:NamedIndividual>
+    
+    <owl:NamedIndividual rdf:about="http://www.example.org/vehicle-ontology#Regular">
+        <rdf:type rdf:resource="http://www.example.org/vehicle-ontology#FuelType"/>
+    </owl:NamedIndividual>
+    
+    <!-- VehicleSizeClass Individuals -->
+    <owl:NamedIndividual rdf:about="http://www.example.org/vehicle-ontology#CompactSize">
+        <rdf:type rdf:resource="http://www.example.org/vehicle-ontology#VehicleSizeClass"/>
+    </owl:NamedIndividual>
+    
+    <owl:NamedIndividual rdf:about="http://www.example.org/vehicle-ontology#LargeSize">
+        <rdf:type rdf:resource="http://www.example.org/vehicle-ontology#VehicleSizeClass"/>
+    </owl:NamedIndividual>
+    
+    <owl:NamedIndividual rdf:about="http://www.example.org/vehicle-ontology#MidsizeSize">
+        <rdf:type rdf:resource="http://www.example.org/vehicle-ontology#VehicleSizeClass"/>
+    </owl:NamedIndividual>
+    
+    <owl:NamedIndividual rdf:about="http://www.example.org/vehicle-ontology#MinicompactSize">
+        <rdf:type rdf:resource="http://www.example.org/vehicle-ontology#VehicleSizeClass"/>
+    </owl:NamedIndividual>
+    
+    <owl:NamedIndividual rdf:about="http://www.example.org/vehicle-ontology#PickupSize">
+        <rdf:type rdf:resource="http://www.example.org/vehicle-ontology#VehicleSizeClass"/>
+    </owl:NamedIndividual>
+    
+    <owl:NamedIndividual rdf:about="http://www.example.org/vehicle-ontology#SUVSize">
+        <rdf:type rdf:resource="http://www.example.org/vehicle-ontology#VehicleSizeClass"/>
+    </owl:NamedIndividual>
+    
+    <owl:NamedIndividual rdf:about="http://www.example.org/vehicle-ontology#SubcompactSize">
+        <rdf:type rdf:resource="http://www.example.org/vehicle-ontology#VehicleSizeClass"/>
+    </owl:NamedIndividual>
+    
+    <owl:NamedIndividual rdf:about="http://www.example.org/vehicle-ontology#VanSize">
+        <rdf:type rdf:resource="http://www.example.org/vehicle-ontology#VehicleSizeClass"/>
+    </owl:NamedIndividual>
+    
+    <!-- MarketSegment Individuals -->
+    <owl:NamedIndividual rdf:about="http://www.example.org/vehicle-ontology#EconomyMarket">
+        <rdf:type rdf:resource="http://www.example.org/vehicle-ontology#MarketSegment"/>
+    </owl:NamedIndividual>
+    
+    <owl:NamedIndividual rdf:about="http://www.example.org/vehicle-ontology#PremiumMarket">
+        <rdf:type rdf:resource="http://www.example.org/vehicle-ontology#MarketSegment"/>
+    </owl:NamedIndividual>
+    
+    <owl:NamedIndividual rdf:about="http://www.example.org/vehicle-ontology#StandardMarket">
+        <rdf:type rdf:resource="http://www.example.org/vehicle-ontology#MarketSegment"/>
+    </owl:NamedIndividual>
+    
+    <!-- DriveType Individuals -->
+    <owl:NamedIndividual rdf:about="http://www.example.org/vehicle-ontology#FrontWheelDrive">
+        <rdf:type rdf:resource="http://www.example.org/vehicle-ontology#DriveType"/>
+    </owl:NamedIndividual>
+    
+    <owl:NamedIndividual rdf:about="http://www.example.org/vehicle-ontology#RearWheelDrive">
+        <rdf:type rdf:resource="http://www.example.org/vehicle-ontology#DriveType"/>
+    </owl:NamedIndividual>
+    
+    <owl:NamedIndividual rdf:about="http://www.example.org/vehicle-ontology#AllWheelDrive">
+        <rdf:type rdf:resource="http://www.example.org/vehicle-ontology#DriveType"/>
+    </owl:NamedIndividual>
+    
+    <owl:NamedIndividual rdf:about="http://www.example.org/vehicle-ontology#FourWheelDrive">
+        <rdf:type rdf:resource="http://www.example.org/vehicle-ontology#DriveType"/>
+    </owl:NamedIndividual>
+    
+    <!-- BodyStyle Individuals -->
+    <owl:NamedIndividual rdf:about="http://www.example.org/vehicle-ontology#Sedan">
+        <rdf:type rdf:resource="http://www.example.org/vehicle-ontology#BodyStyle"/>
+    </owl:NamedIndividual>
+    
+    <owl:NamedIndividual rdf:about="http://www.example.org/vehicle-ontology#Coupe">
+        <rdf:type rdf:resource="http://www.example.org/vehicle-ontology#BodyStyle"/>
+    </owl:NamedIndividual>
+    
+    <owl:NamedIndividual rdf:about="http://www.example.org/vehicle-ontology#SUV">
+        <rdf:type rdf:resource="http://www.example.org/vehicle-ontology#BodyStyle"/>
+    </owl:NamedIndividual>
+    
+    <owl:NamedIndividual rdf:about="http://www.example.org/vehicle-ontology#Truck">
+        <rdf:type rdf:resource="http://www.example.org/vehicle-ontology#BodyStyle"/>
+    </owl:NamedIndividual>
+    
+    <owl:NamedIndividual rdf:about="http://www.example.org/vehicle-ontology#Van">
+        <rdf:type rdf:resource="http://www.example.org/vehicle-ontology#BodyStyle"/>
+    </owl:NamedIndividual>
+    
+    <owl:NamedIndividual rdf:about="http://www.example.org/vehicle-ontology#Wagon">
+        <rdf:type rdf:resource="http://www.example.org/vehicle-ontology#BodyStyle"/>
+    </owl:NamedIndividual>
+    
+    <owl:NamedIndividual rdf:about="http://www.example.org/vehicle-ontology#Convertible">
+        <rdf:type rdf:resource="http://www.example.org/vehicle-ontology#BodyStyle"/>
+    </owl:NamedIndividual>
+    
+    <owl:NamedIndividual rdf:about="http://www.example.org/vehicle-ontology#Hatchback">
+        <rdf:type rdf:resource="http://www.example.org/vehicle-ontology#BodyStyle"/>
+    </owl:NamedIndividual>
+    
+    <!-- BoostSystem Individuals -->
+    <owl:NamedIndividual rdf:about="http://www.example.org/vehicle-ontology#Turbocharger">
+        <rdf:type rdf:resource="http://www.example.org/vehicle-ontology#BoostSystem"/>
+    </owl:NamedIndividual>
+    
+    <owl:NamedIndividual rdf:about="http://www.example.org/vehicle-ontology#Supercharger">
+        <rdf:type rdf:resource="http://www.example.org/vehicle-ontology#BoostSystem"/>
+    </owl:NamedIndividual>
+    
+    <owl:NamedIndividual rdf:about="http://www.example.org/vehicle-ontology#NaturallyAspirated">
+        <rdf:type rdf:resource="http://www.example.org/vehicle-ontology#BoostSystem"/>
+    </owl:NamedIndividual>
+
+    <!-- Explicitly state disjointness between key categories -->
+    <owl:AllDisjointClasses>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#FuelType"/>
+            <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#VehicleSizeClass"/>
+            <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#DriveType"/>
+            <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#BodyStyle"/>
+            <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#MarketSegment"/>
+            <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#BoostSystem"/>
+            <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#Manufacturer"/>
+            <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#ModelYear"/>
+        </owl:members>
+    </owl:AllDisjointClasses>
+    
+    <!-- Make all FuelType individuals different -->
+    <owl:AllDifferent>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#CNG"/>
+            <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#Diesel"/>
+            <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#E85"/>
+            <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#Electricity"/>
+            <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#Midgrade"/>
+            <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#Premium"/>
+            <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#Regular"/>
+        </owl:distinctMembers>
+    </owl:AllDifferent>
+    
+    <!-- Make all DriveType individuals different -->
+    <owl:AllDifferent>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#FrontWheelDrive"/>
+            <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#RearWheelDrive"/>
+            <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#AllWheelDrive"/>
+            <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#FourWheelDrive"/>
+        </owl:distinctMembers>
+    </owl:AllDifferent>
+    
+    <!-- Make all BodyStyle individuals different -->
+    <owl:AllDifferent>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#Sedan"/>
+            <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#Coupe"/>
+            <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#SUV"/>
+            <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#Truck"/>
+            <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#Van"/>
+            <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#Wagon"/>
+            <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#Convertible"/>
+            <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#Hatchback"/>
+        </owl:distinctMembers>
+    </owl:AllDifferent>
+    
+    <!-- Make all BoostSystem individuals different -->
+    <owl:AllDifferent>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#Turbocharger"/>
+            <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#Supercharger"/>
+            <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#NaturallyAspirated"/>
+        </owl:distinctMembers>
+    </owl:AllDifferent>
+    
+    <!-- Make all VehicleSizeClass individuals different -->
+    <owl:AllDifferent>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#CompactSize"/>
+            <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#LargeSize"/>
+            <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#MidsizeSize"/>
+            <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#MinicompactSize"/>
+            <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#PickupSize"/>
+            <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#SUVSize"/>
+            <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#SubcompactSize"/>
+            <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#VanSize"/>
+        </owl:distinctMembers>
+    </owl:AllDifferent>
+    
+    <!-- Make all MarketSegment individuals different -->
+    <owl:AllDifferent>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#EconomyMarket"/>
+            <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#PremiumMarket"/>
+            <rdf:Description rdf:about="http://www.example.org/vehicle-ontology#StandardMarket"/>
+        </owl:distinctMembers>
+    </owl:AllDifferent>
+    
+</rdf:RDF>

@@ -1,0 +1,401 @@
+100 and 200 kW ACPM 6-Phase
+100 kW AC Induction
+100 kW AC PMSM
+100 kW DC Brushless
+100 kW DCPM
+100kW AC Induction
+101V Ni-MH
+102kW AC Induction
+103 kW AC Induction
+104 kW AC Induction
+104 kW ACPM
+105 and 209  kW AC 3-Phase
+105 kW AC Induction
+105 kW ACPM
+105 kW DCPM
+105 kW PMSM
+105kW AC Induction
+105kW DCPM
+107 kW AC Induction
+107 kW AC PMSM
+110 kW AC Induction
+110 kW DCPM
+110 kW PMSM
+111 kW
+111 kW 3-Phase AC
+111 kW PMSM
+113 kW AC Induction
+113 kW AC Synchronous
+115 kW AC Induction
+115V Li-Ion
+120 and 170 kW ACPM
+120 kW AC Induction
+120 kW AC PMSM
+120 kW ACPM
+120 kW IPMSM
+124 kW
+125 kW AC Induction
+125 kW DCPM
+125 kW PMSM
+125kW
+125kW AC Induction
+126 kW
+126 kW 3-Phase AC
+126V Li-Ion
+12V Li-Ion
+130 and 130 kW ACPM 3-Phase
+130 kW AC PMSM
+131 and 190 kW AC 3-Phase
+132 kW AC Induction
+132 kW AC Synchronous
+132kW
+133 and 179 kW AC 3-Phase
+134 kW AC Synchronous
+135 and 135 kW ACPM 3-Phase
+135 and 243 kW AC Induction
+135 and 255 kW AC 3-Phase
+135 and 265 kW ACPM 3-Phase
+135 kW AC Induction
+135 kW DCPM
+135kW AC PMSM
+136 and 136 kW PMSM
+137 kW PMSM
+138 and 157 kW Asynchron 3-Phase
+138 kW Asynchron 3-Phase
+140 (front) 140 (rear) (70 kW-hr battery pack)
+140 (front) 140 (rear) (85 kW-hr battery pack)
+140 (front) 140 (rear) (90 kW-hr battery pack)
+140 kW ACPM 3-Phase
+141 and 141 kW PMSM
+141 and 172 kW Asynchron 3-Phase
+141 kW Asynchron 3-Phase
+144V Li-Ion
+144V Ni-MH
+145 kW PMSM
+147 and 147 kW AC 3-Phase
+147 and 188 kW AC 3-Phase
+147 and 202 kW AC 3-Phase
+147 and 211 kW AC 3-Phase
+147 kW PMSM
+149 and 276 kW AC 3-Phase
+14V Li-Ion
+150 and 150 kW AC PMSM
+150 and 150 kW ACPM 3-Phase
+150 and 150 kW ACPMSM
+150 and 150 kw DCPM
+150 and 150kW AC PMSM
+150 and 234 kW ACPM
+150 and 254 kW ACPM
+150 and 270 kW ACPM
+150 kW
+150 kW AC 3-Phase
+150 kW AC PMSM
+150 kW AC Synchronous
+150 kW ACPM
+150 kW IPMSM
+150 kW PMSM
+150 kW PMSM 3-Phase
+151 and 273 kW AC 3-Phase
+155 and 200 kW ACPM
+155 and 220 kW ACPM
+155 kW ACPM
+157 kW Asynchron 3-Phase
+158 and 203 kW AC 3-Phase
+158 and 219 kW AC 3-Phase
+158V Ni-MH
+16 and 37 kW AC Induction
+160 and 160 AC 3-phase
+160 and 160 kW AC 3-phase
+160 and 160 kW PMSM
+160 kW AC 3-phase
+160 kW DCPM
+160 kW PMSM
+162, 162, 162 and 162 kW AC 3-Phase
+162, 162, 163 and 135 kW ACPM 3-Phase
+162, 162, 163, 163 kW AC 3-Phase
+162, 162, 163, 163kW AC 3-Phase
+164 (front) 350 (rear) (85 kW-hr battery pack)
+164 (front) 350 (rear) (90 kW-hr battery pack)
+165 and 165 kW ACPM 3-Phase
+165 kW PMSM
+165 kW PMSM 3-Phase
+168 kW PMSM
+170 and 335 kW ACPM
+170 kW AC PMSM
+170 kW ACPM
+170 kW ACPMSM
+172 kW Asynchron 3-Phase
+174 and 310 kW AC 3-Phase
+174 and 310 kW ACPM 3-Phase
+175 and 175 kW ACPMSM
+175 and 175 kw DCPM
+175 and 320 kW ACPM
+175 and 335 kW ACPM
+175 and 355 kW ACPM
+175 kW Asynchron 3-Phase
+175 kW PMSM 3-Phase
+178 and 433kW ACPM
+178 kW AC 3-phase
+179 and 179 kW AC PMSM
+179 and 186 kW AC 3-Phase
+179 kW AC PMSM
+18 kW
+18 kW AC Induction
+180 and 189 kW AC 3-Phase
+180 and 350 kW AC Induction (85 kW-hr battery pack)
+180 kW ACPM
+186 kW PMSM
+189 and 189 kW ACPM
+190 and 230 kW EESM
+190 and 235 kW ACPM
+190 and 335 kW ACPM
+190 and 360 kW EESM
+190 kW EESM
+191 kW ACPM
+192 kW AC 3-Phase
+192 kW ACPM 3-Phase
+193 (front) 193 (rear) (100 kW-hr battery pack)
+193 (front) 193 (rear) (60 kW-hr battery pack)
+193 (front) 193 (rear) (70 kW-hr battery pack)
+193 (front) 193 (rear) (75 kW-hr battery pack)
+193 (front) 193 (rear) (85 kW-hr battery pack)
+193 (front) 193 (rear) (90 kW-hr battery pack)
+193 (front) 375 (rear) (100 kW-hr battery pack)
+193 (front) 375 (rear) (85 kW-hr battery pack)
+193 (front) 375 (rear) (90 kW-hr battery pack)
+193 (front), 205/375 (rear) kW ACPM
+193 and 205 kW AC 3-Phase
+193 and 375 kW AC 3-Phase
+194 and 280 kW ACPM
+194 and 360 kW ACPM
+197 kW AC PMSM
+198 and 198 kW AC PMSM
+198 and 498kW ACPM
+198 kW AC 3-Phase
+198 kW AC PMSM
+198 kW ACPM
+2 @ 150 kw (300 kw)
+20 kW AC Induction
+200 kW ACPM
+201 kW AC PMSM
+202 kW AC 3-Phase
+202V Li-Ion
+202V Ni-MH
+205 and 375 kW AC 3-Phase
+207 and 207  kW AC Induction
+207V Li-Ion
+207V Li-Ion and NiMH
+208 and 208 kW ACPM
+208 kW ACPM
+209 and 209 kW AC PMSM
+209 kW AC 3-Phase
+210 and 210 kW AC PMSM
+210 and 250 kW ACPM
+210 kW AC 3-Phase
+211 kW AC 3-Phase
+212 kW ACPM
+214 kW PMSM
+215 kW ACPM 6-Phase
+216 kW AC PMSM
+216 kW ACPM
+216V Li-Ion
+216V Ni-MH
+216V NiMH
+22 and 53 kW AC Induction
+220 kW ACPM
+220V Li-Ion
+221V Li-Ion
+222V Li-Ion
+225 kW AC Induction
+225 kW AC Induction (60 kW-hr battery pack)
+230 kW EESM
+230, 230 and 230 kW AC 3-Phase
+230, 230 and 230 kW ACPM 3-Phase
+230V Ni-MH
+234 and 235 kW ACPM
+234 kW ACPM
+235 kW ACPM
+24 KW AC Synchronous
+240 kW ACPM
+240V Li-Ion
+243 and 243 kW ACPM 3-Phase
+243 and 248 kW AC 3-Phase
+245 kW ACPM 6-Phase
+245V Li-Ion and NiMH
+245V Ni-MH
+247 and 247 kW AC 3-Phase
+247 and 247 kW ACPM 3-Phase
+250 and 250 kW AC 3-Phase
+250 kW EESM
+250, 250 and 250 kW AC 3-Phase
+250, 250 and 250 kW ACPM 3-Phase
+252V Li-Ion
+254 kW ACPM
+255 kW ACPM
+255 kW PMSM
+258 and 258 kW AC PMSM
+259V Li-Ion
+260 kW AC Induction
+260 kW ACPM 3-Phase
+260V Li-Ion
+263V Li-Ion
+265 and 265 kW ACPM 6-Phase
+265 kW ACPM 6-Phase
+266V Li-Ion
+27 KW AC Induction
+270 kW AC Induction
+270 kW AC Induction (75 kW-hr battery pack)
+270 kW AC Induction (85 kW-hr battery pack)
+270V Li-Ion
+275, 275 and 275 kW DCPM
+275V Ni-MH
+280 kW ACPM
+280V Li-Ion
+281V Li-Ion
+285 kW AC Induction (60 kW-hr battery pack)
+285 kW AC Induction (70 kW-hr battery pack)
+285 kW AC Induction (75 kW-hr battery pack)
+285 kW AC Induction (85 kW-hr battery pack)
+285 kW AC Induction (90 kW-hr battery pack)
+288V Ni-MH
+288V NiMH
+295V Li-Ion
+30 kW DCPM
+300 kW ACPM 3-Phase
+300V Li-Ion
+300V Ni-MH
+31 and 104 kW ACPM 6-Phase
+310 and 310 kW ACPM 6-Phase
+310, 310 and 330 kW ACPM
+311V Li-Ion
+312V Ni-MH
+320V Ni-MH
+32kW IPMSM
+330 kW ACPM
+330V Ni-MH
+335 kW Asynchron 3-Phase
+335 kW EESM
+34 and 107 kW 3-phase Sync.
+34 and 65 kW 3-phase Sync.
+34 and 65 kW DCPM
+34 kW 3-phase Sync.
+346V Li-Ion
+358 and 358 kW AC PMSM
+36 and 50 kW DCPM
+36 kW DCPM
+360 kW EESM
+36V Ni-MH
+370 and 370kW ACPM
+370 and 459kW ACPM
+374V Li-Ion
+40 and 134 kW AC Induction
+40V Li-Ion
+418 kW ACPM
+44V Li-Ion
+45 kW IPMSM
+45V Li-Ion
+45kW IPMSM
+46V Li-Ion
+48 and 87 kW 3-Phase AC
+48V Li-Ion
+49 kW DC Brushless
+49 kW DCPM
+496 kW ACPM
+49kW DC Brushless
+50 KW DC
+50 and 96 kW DCPM
+50 kW IPMSM
+50kW IPMSM
+52 kW AC Induction
+52, 85, 86kW 3-phase Sync.
+55 and 174kW 3-Phase AC
+55 kW DCPM
+56 kW AC Induction
+56kW AC Induction
+59 and 61 kW 3-Phase AC
+59 and 61kW 3-Phase AC
+60 KW AC Synchronous
+60 and 70 kW DCPM
+60 kW DCPM
+62 KW AC Induction
+62 kW AC PMSM
+62 kW DCPM
+65 kW AC Induction
+65kW
+67 KW AC
+67 KW AC  Induction
+67 KW AC Induction
+67 and 180 kW AC Induction
+67 and 180 kW ACPM
+67 and 67 kW AC Induction
+67 kW AC IPMSM
+67 kW AC PMSM
+67 kW IPMSM
+67 kW PMSM
+68 kW
+68 kW DCPM
+686V Li-Ion
+69 and 201 kW AC 3-Phase
+70 kW
+70 kW DC Brushless
+700V Li-Ion
+71 and 114 kW ACPM 3-Phase
+71 kW DCPM
+72 and 143 kW AC 3-Phase
+72 and 144 kW ACPM 6-Phase
+72 and 96 kW AC 3-Phase
+72 and 96 kW ACPM 3-Phase
+74 and 160 kW PMSM
+74 and 165 kW PMSM
+74 kW DCPM
+74 kW PMSM
+75 kW AC PMSM
+75 kW DCPM
+78 and 210 kW AC PMSM
+78 kW DCPM
+80 and 150 kW AC 3-Phase
+80 and 150 kW AC Synchronous
+80 and 150 kW Asynchron 3-Phase
+80 and 80 kW AC Synchronous
+80 kW Asynchron 3-Phase
+80 kW DCPM
+80 kW PMSM
+80kW DCPM
+81 kW AC PMSM
+82 kW AC Induction
+82 kW ACIPM
+83 kW AC Induction
+83 kW DCPM
+83 kW PMSM
+83kW DCPM
+84 and 191 kW ACPM 3-Phase
+84V Li-Ion
+85 and 100 kW DCPM
+85 kW AC Induction
+85 kW AC PMSM
+85 kW DCPM
+86V Li-Ion
+87 kW DCPM
+88 kW AC Induction
+88 kW AC PMSM
+88 kW DCPM
+89 kW AC Induction
+90 kW DCPM
+91 and 200 kW AC 3-Phase
+91 and 200 kW AC Induction
+92 kW DCPM
+95 kW and 116 kW DC Brushless
+96 kW DCPM
+96, 96, 96 and 96 kW AC PMSM
+96kW
+96kW AC Induction
+98 and 195 kW AC 3-Phase
+99 kW DC Brushless
+99 kW PMSM
+99, 99 and 150 kW PMSM
+99, 99, 150kW 3-phase Sync.
+TBD
+TBD ACPM
+Two 444V Li-Ion
+Two 480V Li-Ion
+Unknown

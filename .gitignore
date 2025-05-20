@@ -1,0 +1,18 @@
+# Exclude specific files
+*.log
+*.xlsx
+*.docx
+
+# Exclude specifc directories
+tests/
+sandbox/
+.private/
+.secrets/
+
+
+# Exclude files from operative systems
+.DS_Store
+
+# Exclude files from IDEs
+.idea/
+.vscode/
